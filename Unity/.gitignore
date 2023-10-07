@@ -1,0 +1,58 @@
+# For Unity Specific                     #
+#----------------------------------------#
+**/[Tt]emp/
+**/[Tt]mp/
+**/[Ll]ibrary/*
+
+
+**/[Ll]ogs/
+**/UserSettings/*
+**/*.vsconfig
+**/[Tt]est.meta
+
+*.unitypackage
+*.unitypackage.meta
+
+Assets/BuildReport/
+Assets/BuildReport.meta
+**/*.keystore
+**/[Ee]xamples/*
+**/[Ee]xamples.meta
+
+# Assets Bundle / Addressable Specific   #
+#----------------------------------------#
+!Library/com.unity.addressables
+Library/com.unity.addressables/AddressablesBuildTEP.json
+Assets/StreamingAssets/aa/
+Assets/StreamingAssets/aa.meta
+# -----------------------------------------
+
+
+# Firebase / Google Specific   #
+#----------------------------------------#
+**/GeneratedLocalRepo*/*
+**/GeneratedLocalRepo*.meta
+**/m2repo*/
+**/m2repo*.meta
+**/remote_config_data
+
+# Firebase remote config   #
+**/remote_config_data
+# -----------------------------------------
+
+
+# Target Build Files #
+# ------------------ #
+/[Bb]uilds/*
+/[Bb]uild/*
+*.apk
+*.exe
+MemoryCaptures
+# -----------------------------------------
+
+# Other User Placed project related inter files #
+# --------------------------------------------- #
+
+/[Ff]eedback/
+/[Dd]ev[Aa]ssets/
+# -----------------------------------------

@@ -1,0 +1,31 @@
+# Visual Studio generated #
+# ----------------------- #
+!*.csproj
+!*.sln
+
+
+# MSTest test Results
+**/[Tt]est[Rr]esult*/
+**/[Bb]uild[Ll]og.*
+
+# Visual Studio Outputs #
+# ----------------------- #
+# Publish Web Output
+*.[Pp]ublish.xml
+*.azurePubxml
+# TODO: Comment the next line if you want to checkin your web deploy settings
+# but database connection strings (with potential passwords) will be unencrypted
+#*.pubxml
+*.publishproj
+
+# NuGet Packages
+*.nupkg
+
+# except build/, which is used as an MSBuild target.
+**/packages/build/
+
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
+# NuGet v3's project.json files produces more ignoreable files
+*.nuget.props
+*.nuget.targets
